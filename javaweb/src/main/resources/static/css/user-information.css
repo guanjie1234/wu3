@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 500px; /* 两列，每列占据可用空间的一半 */
+  grid-template-rows: 80px 80px 80px 80px 200px; /* 五行，每行高度为100px（可以根据需要调整） */
+  grid-gap: 10px; /* 网格项之间的间距（水平和垂直） */
+  width: 100%; /* 容器宽度为100% */
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8); /* 网格项的背景色（可选） */
+  border: 1px solid rgba(0, 0, 0, 0.8); /* 网格项的边框（可选） */
+  padding: 20px; /* 网格项的内边距（可选） */
+  text-align: center; /* 文本居中（可选） */
+}

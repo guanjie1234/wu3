@@ -1,0 +1,36 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#search-input {
+    flex: 1;
+    width:1000px;
+    height:60px;
+    padding: 5px 10px;
+    border: 3px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size:32px;
+    background-color: transparent;
+}
+#search-input:focus {
+    border: 3px solid rgba(128, 128, 128, 0.8);/* 获得焦点时的边框颜色 */
+    outline: none; /* 去除浏览器默认的焦点轮廓 */
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#search-button {
+    padding: 5px 10px;
+    width:120px;
+    height:75px;
+    background-color: rgba(128, 128, 128, 0.8);
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+#search-button:hover {
+    background-color: rgba(128, 128, 128, 1);
+}
